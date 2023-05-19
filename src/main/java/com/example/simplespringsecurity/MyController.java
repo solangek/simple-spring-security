@@ -13,7 +13,10 @@ public class MyController {
      */
     @GetMapping
     public String index() {
+
         return "index";
+        // redirect to /react-app/index.html
+        //return "redirect:/react-app/index.html";
     }
 }
 
